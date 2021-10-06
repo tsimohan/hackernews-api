@@ -1,3 +1,9 @@
+# API Structure
+```type``` = ```{"top", "new", "ask", "job", "show"}```
+```page``` = ```1, 2, 3, ... etc```
+```news_count``` = ```10, 20, 30, ... etc```
+```http://localhost:8000/api/news/{type}/{page_no}/{news_count}```
+
 # Lumen PHP Framework
 
 [![Build Status](https://travis-ci.org/laravel/lumen-framework.svg)](https://travis-ci.org/laravel/lumen-framework)
